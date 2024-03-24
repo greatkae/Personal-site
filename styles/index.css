@@ -1,0 +1,71 @@
+header{
+    background-color: #E0D68A;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}    
+   
+nav a:hover{
+    background-color: #8E443D;
+    color: #2B2D42;
+}
+nav a{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    padding: 35px;
+}
+#logo{
+    height: 100%;
+}
+main{
+    background-color: bisque;
+    width: 100%;
+    margin: auto 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#basics{
+    display: flex;
+    justify-items: center;
+}
+#grassball{
+    width: 300px;
+}
+#fouls{
+    display: flex;
+    justify-items: center;
+    
+}
+#ref{
+    width: 300px;
+}
+#character{
+    display: flex;
+    justify-items: center;
+    
+}
+#linesman{
+    width: 300px;
+    height: 300px;
+}
+footer{
+    background-color: #E0D68A;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+footer nav a:hover{
+    background-color: #8E443D;
+    color: #2B2D42;
+}
+p{
+    flex: 2;
+}
+
+
