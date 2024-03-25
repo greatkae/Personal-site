@@ -1,7 +1,13 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 header{
     background-color: #E0D68A;
     display: grid;
     grid-template-columns: 150px auto;
+    margin-bottom: 0px;
 }
 nav{
     display: flex;
@@ -22,10 +28,15 @@ nav a{
 #logo{
     height: 100%;
 }
+#logo:hover{
+    opacity: .9;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px #2B2D42;
+}
 main{
     background-color: bisque;
     width: 100%;
-    margin: auto 0;
+    padding: 1em;
 }
 body{
     margin: 0;
@@ -34,38 +45,81 @@ body{
 #basics{
     display: flex;
     justify-items: center;
+    padding: 1em;
 }
 #grassball{
     width: 300px;
 }
+#grassball:hover{
+    opacity: .9;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px #2B2D42;
+}
 #fouls{
     display: flex;
     justify-items: center;
+    padding: 1em;
     
 }
 #ref{
     width: 300px;
 }
+#ref:hover{
+    opacity: .9;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px #2B2D42;
+}
 #character{
     display: flex;
     justify-items: center;
+    padding: 1em;
     
 }
 #linesman{
     width: 300px;
     height: 300px;
 }
+#linesman:hover{
+    opacity: .9;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px #2B2D42;
+
+}
 footer{
     background-color: #E0D68A;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-footer nav a:hover{
+footer p a:hover{
     background-color: #8E443D;
     color: #2B2D42;
+    text-decoration: none;
+}
+footer p a{
+    text-decoration: none;
+    color: #8E443D;
 }
 p{
     flex: 2;
+}
+.social{
+    text-align: center;
+}
+img.social_media{
+    width: 40px;
+}
+#twitter{
+    height: 40px;
+}
+#twitter:hover{
+    opacity: .9;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px #2B2D42;
+}
+.basicsheader{
+    padding: 2em;
 }
 
 
