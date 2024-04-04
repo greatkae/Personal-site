@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #E0D68A;
+    display: grid;
+    grid-template-columns: 150px auto;
+    margin-bottom: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}    
+   
+nav a:hover{
+    background-color: #8E443D;
+    color: #2B2D42;
+}
+nav a{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    padding: 35px;
+}
+#logo{
+    height: 100%;
+}
+#logo:hover{
+    opacity: .9;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px #2B2D42;
+}
+main{
+    background-color: bisque;
+    width: 100%;
+    padding: 1em;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#epl{
+    display: flex;
+    justify-items: center;
+    padding: 1em;
+}
+#eplpic{
+    width: 270px;
+    padding-right: 1em;
+}
+#eplpic:hover{
+    opacity: .9;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px #2B2D42;
+}
+#la_liga{
+    display: flex;
+    justify-items: center;
+    padding: 1em;
+    
+}
+#laliga{
+    width: 270px;
+    padding-right: 1em;
+}
+#laliga:hover{
+    opacity: .9;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px #2B2D42;
+}
+#serie_a{
+    display: flex;
+    justify-items: center;
+    padding: 1em;
+    
+}
+#serie{
+    width: 300px;
+    height: 300px;
+    padding-right: 1em;
+}
+#serie:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+
+}
+#bundespic{
+    width: 270px;
+    padding-right: 1em;
+}
+#bundespic:hover{
+    opacity: .9;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px #2B2D42;
+}
+#league1pic{
+    width: 270px;
+    padding-right: 1em;
+}
+#league1pic:hover{
+    opacity: .9;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px #2B2D42;
+}
+#mlspic{
+    width: 270px;
+    padding-right: 1em;
+}
+#mlspic:hover{
+    opacity: .9;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px #2B2D42;
+}
+#bundesliga{
+    display: flex;
+    justify-items: center;
+    padding: 1em;
+}
+#league_1{
+    display: flex;
+    justify-items: center;
+    padding: 1em;
+}
+#mls{
+    display: flex;
+    justify-items: center;
+    padding: 1em;
+}
+
+footer{
+    background-color: #E0D68A;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer p a:hover{
+    background-color: #8E443D;
+    color: #2B2D42;
+    text-decoration: none;
+}
+footer p a{
+    text-decoration: none;
+    color: #8E443D;
+}
+p{
+    flex: 2;
+}
+.social{
+    text-align: center;
+}
+img.social_media{
+    width: 40px;
+}
+#twitter{
+    height: 40px;
+}
+#twitter:hover{
+    opacity: .9;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px #2B2D42;
+    animation: shake 0.5s;
+}
+.basicsheader{
+    padding: 2em;
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
