@@ -134,4 +134,22 @@ img.social_media{
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
+#rules_1{
+    display: flex;
+    justify-items: center;
+    padding: 1em;
+    margin: 1em;
+    justify-content: space-around;
+}
+#coach{
+    width: 300px;
+    margin-right: 1em;
+    height: 300px;
+}
+h1{
+    padding: 1em;
+}
+h2{
+    padding: 1em;
+}
 
